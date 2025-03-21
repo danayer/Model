@@ -37,22 +37,22 @@ y = y₀ + v₀·sin(β)·t - g·t²/2
 ### Ubuntu/Debian
 ```bash
 sudo apt update
-sudo apt install valac libgtk-4-dev meson build-essential
+sudo apt install valac libgtk-4-dev meson build-essential libgee-0.8-dev
 ```
 
 ### Fedora
 ```bash
-sudo dnf install vala gtk4-devel meson gcc
+sudo dnf install vala gtk4-devel meson gcc libgee-devel
 ```
 
 ### Arch Linux
 ```bash
-sudo pacman -S vala gtk4 meson base-devel
+sudo pacman -S vala gtk4 meson base-devel libgee
 ```
 
 ### openSUSE
 ```bash
-sudo zypper install vala gtk4-devel meson gcc
+sudo zypper install vala gtk4-devel meson gcc libgee
 ```
 
 ## Сборка
